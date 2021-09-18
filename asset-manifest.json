@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-redux-academy-registration-app/static/css/main.dabd7d56.chunk.css",
+    "main.js": "/react-redux-academy-registration-app/static/js/main.d2e212aa.chunk.js",
+    "main.js.map": "/react-redux-academy-registration-app/static/js/main.d2e212aa.chunk.js.map",
+    "runtime-main.js": "/react-redux-academy-registration-app/static/js/runtime-main.fca5869d.js",
+    "runtime-main.js.map": "/react-redux-academy-registration-app/static/js/runtime-main.fca5869d.js.map",
+    "static/css/2.53150396.chunk.css": "/react-redux-academy-registration-app/static/css/2.53150396.chunk.css",
+    "static/js/2.8bc52bf9.chunk.js": "/react-redux-academy-registration-app/static/js/2.8bc52bf9.chunk.js",
+    "static/js/2.8bc52bf9.chunk.js.map": "/react-redux-academy-registration-app/static/js/2.8bc52bf9.chunk.js.map",
+    "static/js/3.9f0cb1a1.chunk.js": "/react-redux-academy-registration-app/static/js/3.9f0cb1a1.chunk.js",
+    "static/js/3.9f0cb1a1.chunk.js.map": "/react-redux-academy-registration-app/static/js/3.9f0cb1a1.chunk.js.map",
+    "index.html": "/react-redux-academy-registration-app/index.html",
+    "static/css/2.53150396.chunk.css.map": "/react-redux-academy-registration-app/static/css/2.53150396.chunk.css.map",
+    "static/css/main.dabd7d56.chunk.css.map": "/react-redux-academy-registration-app/static/css/main.dabd7d56.chunk.css.map",
+    "static/js/2.8bc52bf9.chunk.js.LICENSE.txt": "/react-redux-academy-registration-app/static/js/2.8bc52bf9.chunk.js.LICENSE.txt",
+    "static/media/Web-development.94019588.png": "/react-redux-academy-registration-app/static/media/Web-development.94019588.png",
+    "static/media/icon.9f4c0e82.png": "/react-redux-academy-registration-app/static/media/icon.9f4c0e82.png",
+    "static/media/logo.30df9950.png": "/react-redux-academy-registration-app/static/media/logo.30df9950.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fca5869d.js",
+    "static/css/2.53150396.chunk.css",
+    "static/js/2.8bc52bf9.chunk.js",
+    "static/css/main.dabd7d56.chunk.css",
+    "static/js/main.d2e212aa.chunk.js"
+  ]
+}
