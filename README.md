@@ -1,3 +1,9 @@
+# About this project
+This is a react redux project where a student can register in courses.
+The data are dummy and created with mockaroo and there is not a database so anything you add will be deleted after you close the page.
+I installed : For redux: redux, react-redux, @reduxjs/toolkit.
+For styling: bootstrap, @material-ui/core.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +74,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
