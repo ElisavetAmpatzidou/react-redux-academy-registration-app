@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/home';
+import Register from './components/register';
+import {Provider} from 'react-redux';
+import NavBar from './components/navbar';
+import Students from './components/students';
+import {Route, Switch } from 'react-router-dom';
+import crStore from './store/configureStore'; 
 
 function App() {
+
+  const store = crStore();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <NavBar/>
+      <main className="container">
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
+            <Route path="/register" component={Register}></Route>
+            <Route path="/view" component={Students}></Route>
+          </Switch>
+        </main>
+    </Provider>
+      
   );
 }
 
