@@ -58,7 +58,8 @@ const Students = () => {
     }
 
     const filtered = searchQuery ? students.filter( s => 
-        s.first_name.toLowerCase().startsWith(searchQuery.toLowerCase()) ): 
+        s.first_name.toLowerCase().startsWith(searchQuery.toLowerCase()) || s.last_name.toLowerCase().startsWith(searchQuery.toLowerCase()) ||
+        s.email.toLowerCase().startsWith(searchQuery.toLowerCase())): 
         selectedGender === genders[0].value && selectedCourse === courses[0].value? students: 
         selectedGender !== genders[0].value && selectedCourse === courses[0].value ? students.filter(s => s.gender === selectedGender):
         selectedGender === genders[0].value && selectedCourse !== courses[0].value ? students.filter(s => s.course === selectedCourse):
