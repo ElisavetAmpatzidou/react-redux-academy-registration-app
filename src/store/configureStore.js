@@ -5,3 +5,4 @@ import reducer from "./students";
 export default function () {
   return configureStore({reducer});
 }
+

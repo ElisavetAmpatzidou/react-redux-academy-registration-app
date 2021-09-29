@@ -1,23 +1,23 @@
 import './App.css';
-import Home from './components/home';
-import Register from './components/register';
+import Home from './tscomponents/home';
+import Register from './tscomponents/register';
 import {Provider} from 'react-redux';
-import NavBar from './components/navbar';
-import Students from './components/students';
+import NavBar from './tscomponents/navbar';
+import Students from './tscomponents/students';
 import {Route, Switch } from 'react-router-dom';
-import crStore from './store/configureStore'; 
+import crStore from './tscomponents/configureStore'; 
 
 function App() {
 
-  const store = crStore();
+  const store = crStore;
   return (
     <Provider store={store}>
       <NavBar/>
       <main className="container">
           <Switch>
-            <Route exact path="/" component={Home}></Route>
             <Route path="/register" component={Register}></Route>
             <Route path="/view" component={Students}></Route>
+            <Route path="/" component={Home}></Route>
           </Switch>
         </main>
     </Provider>
