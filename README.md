@@ -4,6 +4,8 @@ The data are dummy and created with mockaroo and there is not a database so anyt
 I installed : For redux: redux, react-redux, @reduxjs/toolkit.
 For styling: bootstrap, @material-ui/core.
 
+You can explore the app at : http://ElisavetAmpatzidou.github.io/react-redux-academy-registration-app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
